@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <span class="menu-toggle" onclick="toggleSidebar()">&#9776;</span>
+            <div class="menu">
+                <a href="#beranda" class="nav-item">Beranda</a>
+                <a href="#tentang" class="nav-item">Tentang</a>
+                <a href="#galeri" class="nav-item">Galeri</a>
+                <a href="#kontak" class="nav-item">Kontak</a>
+            </div>
+        </div>
+        <div class="logo">
+            <img src="assets/logo-white.png" alt="Logo" style="height: 30px;">
+        </div>
+    </nav>
+
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <span class="close-btn" onclick="toggleSidebar()">&times;</span>
+        </div>
+        <a href="#beranda" class="sidebar-item"><i class="fas fa-home"></i> Beranda</a>
+        <a href="#tentang" class="sidebar-item"><i class="fas fa-info-circle"></i> Tentang</a>
+        <a href="#galeri" class="sidebar-item"><i class="fas fa-images"></i> Galeri</a>
+        <a href="#kontak" class="sidebar-item"><i class="fas fa-envelope"></i> Kontak</a>
+
+        <button class="close-sidebar-btn" onclick="toggleSidebar()">Close</button>
+
+        <div class="sidebar-icons">
+            <a href="https://github.com/ardenpratamamaskuri404" target="_blank" class="fab fa-github"></a>
+            <a href="https://instagram.com/dnprtmmskri" target="_blank" class="fab fa-instagram"></a>
+            <a href="https://wa.me/qr/JJFE3OREDOHUB1" target="_blank" class="fab fa-whatsapp"></a>
+        </div>
+    </div>
+</header>
+
+    <section id="beranda">
+        <div class="container-beranda">
+            <div class="background-slides"></div>
+            <div class="welcome-message">
+                <h1>Selamat Datang Di Tripify</h1>
+                <p>Jelajahi dunia dan temukan destinasi impian Anda bersama kami. Tripify siap membantu Anda merencanakan perjalanan yang tak terlupakan!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang">
+        <div class="kepala-tentang">
+            <section id="mission" class="mission-vision">
+                <h2>Misi Kami</h2>
+                <p>Menginspirasi dan memfasilitasi perjalanan yang berkesan dengan menyediakan layanan dan alat terbaik sesuai kebutuhan para pelancong.</p>
+            </section>
+    
+            <section id="vision" class="mission-vision">
+                <h2>Visi Kami</h2>
+                <p>Menjadi platform perjalanan terkemuka yang diakui karena inovasi, kepuasan pelanggan, dan keberlanjutan.</p>
+            </section>
+    
+            <section id="info" class="info-section">
+                <img src="assets/banner.png" alt="Destinasi Perjalanan">
+                <div>
+                    <h2>Tentang Tripify</h2>
+                    <p>Tripify adalah panduan perjalanan serba ada yang membantu Anda merencanakan, menjelajahi, dan memesan perjalanan dengan mudah. Dari menemukan permata tersembunyi hingga memberikan rekomendasi pilihan, kami hadir untuk mewujudkan impian perjalanan Anda.</p>
+                    <p>Dengan platform yang mudah digunakan dan dukungan terbaik, Tripify berkomitmen menciptakan pengalaman tak terlupakan untuk setiap pelancong.</p>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section id="galeri">
+        <div class="kepala-galeri">
+            <h1>Galeri Tripify</h1>
+            <p>Temukan destinasi indah di seluruh dunia</p>
+        </div>
+        
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://cdn.pixabay.com/photo/2015/03/09/18/34/beach-666122_960_720.jpg" alt="Pantai yang Indah">
+                <div class="info">Pantai yang Indah</div>
+                <p class="description">Rasakan keindahan tenang dari air kristal yang jernih dan pasir emas.</p>
+                <a href="https://www.kompas.com/tren/read/2024/03/25/143000065/daftar-15-pantai-paling-indah-di-dunia-satu-dari-indonesia" class="btn" target="_blank">Pelajari Lebih Lanjut</a>
+            </div>
+            <div class="gallery-item">
+                <img src="https://cdn.pixabay.com/photo/2018/08/16/08/39/hallstatt-3609863_960_720.jpg" alt="Pemandangan Gunung">
+                <div class="info">Pemandangan Gunung</div>
+                <p class="description">Abadikan pemandangan menakjubkan dari gunung yang megah.</p>
+                <a href="https://www.idntimes.com/travel/destination/annisa-nur-fitriani-1/wisata-di-dunia-dengan-pemandangan-gunung-yang-indah-c1c2" class="btn" target="_blank">Pelajari Lebih Lanjut</a>
+            </div>
+            <div class="gallery-item">
+                <img src="https://cdn.pixabay.com/photo/2016/10/21/14/50/szechenyi-chain-bridge-1758196_960_720.jpg" alt="Lampu Kota">
+                <div class="info">Lampu Kota</div>
+                <p class="description">Rasakan energi dari pemandangan kota yang hidup di malam hari.</p>
+                <a href="https://lifestyle.bisnis.com/read/20210428/361/1387763/kota-new-york-siap-sambut-wisatawan" class="btn" target="_blank">Pelajari Lebih Lanjut</a>
+            </div>
+            <div class="gallery-item">
+                <img src="https://cdn.pixabay.com/photo/2021/11/03/12/28/forest-6765636_960_720.jpg" alt="Jalur Hutan">
+                <div class="info">Jalur Hutan</div>
+                <p class="description">Rasakan ketenangan alam di sepanjang jalur hutan yang damai.</p>
+                <a href="https://kumparan.com/jendela-dunia/6-rekomendasi-wisata-hutan-di-jawa-barat-untuk-healing-1zq89DVsIs2" class="btn" target="_blank">Pelajari Lebih Lanjut</a>
+            </div>
+            <div class="gallery-item">
+                <img src="https://cdn.pixabay.com/photo/2016/10/01/10/23/tuscany-1707192_960_720.jpg" alt="Petualangan Gurun">
+                <div class="info">Petualangan Gurun</div>
+                <p class="description">Mulailah perjalanan seru melalui gurun yang luas.</p>
+                <a href="https://kumparan.com/jendela-dunia/5-wisata-gurun-pasir-di-indonesia-bak-berlibur-di-timur-tengah-233hUFPRzpb" class="btn" target="_blank">Pelajari Lebih Lanjut</a>
+            </div>
+            <div class="gallery-item">
+                <img src="https://cdn.pixabay.com/photo/2023/02/08/17/55/mountains-7777164_960_720.jpg" alt="Puncak Bersalju">
+                <div class="info">Puncak Bersalju</div>
+                <p class="description">Temukan keajaiban lanskap yang tertutup salju.</p>
+                <a href="https://www.inilah.com/wisata-salju-di-indonesia" class="btn" target="_blank">Pelajari Lebih Lanjut</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak">
+        <div class="contact-section">
+            <h1>Hubungi Kami</h1>
+            <p>Kami ingin mendengar dari Anda! Apakah Anda memiliki pertanyaan atau masukan? Jangan ragu untuk menghubungi kami.</p>
+        
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i> 
+                    <h3>Email Kami</h3>
+                    <p>support@tripify.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i> 
+                    <h3>Hubungi Kami</h3>
+                    <p>+1 234 567 890</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i> 
+                    <h3>Kunjungi Kami</h3>
+                    <p>123 Tripify Street, Traveler City</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact-form">
+            <h2>Kirimkan pesan kepada kami</h2>
+            <form action="https://formspree.io/f/mgvvzlaa" method="POST">
+                <input type="text" name="name" placeholder="Nama Anda" required>
+                <input type="email" name="email" placeholder="Email Anda" required>
+                <textarea name="message" placeholder="Pesan Anda" rows="5" required></textarea>
+        
+                <div class="button-group">
+                    <button type="submit" class="btn">Kirim Pesan</button>
+                    <button type="button" class="btn-reset" onclick="resetForm()">Reset Kolom</button>
+                </div>
+            </form>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Arden | My Website Arden.</p>
+        <div class="social-links">
+            <a href="https://github.com/ardenpratamamaskuri404" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://instagram.com/dnprtmmskri" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/qr/JJFE3OREDOHUB1 " target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    <script src="function.js"></script>
+</body>
+</html>
